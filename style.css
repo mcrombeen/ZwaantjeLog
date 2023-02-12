@@ -25,7 +25,8 @@ h1 {
 .button:hover:after {
   content: attr(data-text);
   position: absolute;
-  top: 50%;
+  color: red;
+  top: 10%;
   left: 60%;
   transform: translate(-50%, -50%);
   background-color: white;
