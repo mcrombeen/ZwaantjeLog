@@ -18,8 +18,8 @@ h1 {
   text-decoration: none;
   font-size: 16px;
   display: block;
-  width: 450px;
-  margin: 10px;
+  width: 400px;
+  margin: 10px auto;
 }
 
 .button:hover:after {
