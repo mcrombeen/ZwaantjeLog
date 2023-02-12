@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 10px auto;
+}
