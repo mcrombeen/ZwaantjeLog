@@ -21,3 +21,16 @@ h1 {
   width: 450px;
   margin: 10px auto;
 }
+
+.button:hover:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1;
+}
