@@ -1,5 +1,5 @@
 document.getElementById("form1").addEventListener("click", function() {
-  window.location.href = "https://forms.google.com/form1";
+  window.location.href = "https://forms.gle/ZiPfqqTF8Fi3w1jL7";
 });
 
 document.getElementById("form2").addEventListener("click", function() {
