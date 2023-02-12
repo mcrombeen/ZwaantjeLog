@@ -29,7 +29,7 @@ window.onload = function() {
   var form4 = document.getElementById("form4");
   if (form4) {
     form4.addEventListener("click", function() {
-      window.location.href = "https://forms.google.com/form4";
+       window.open("https://docs.google.com/forms/d/e/1FAIpQLSftHyYQPe5HF7eTAFHwDCUSA2o2udecWzFd1Iosu7Z_IOowQQ/viewform?usp=sf_link", "_blank");
     });
   } else {
     console.error("Element with ID 'form4' not found in the DOM");
