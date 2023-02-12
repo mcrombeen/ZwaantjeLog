@@ -1,20 +1,23 @@
-const button1 = document.getElementById("button1");
-const button2 = document.getElementById("button2");
-const button3 = document.getElementById("button3");
-const button4 = document.getElementById("button4");
-
-button1.addEventListener("click", function() {
-  window.open("https://docs.google.com/forms/d/form1-url");
+document.getElementById("form1").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form1";
 });
 
-button2.addEventListener("click", function() {
-  window.open("https://docs.google.com/forms/d/form2-url");
+document.getElementById("form2").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form2";
 });
 
-button3.addEventListener("click", function() {
-  window.open("https://docs.google.com/forms/d/form3-url");
+document.getElementById("form3").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form3";
 });
 
-button4.addEventListener("click", function() {
-  window.open("https://docs.google.com/forms/d/form4-url");
+document.getElementById("form4").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form4";
+});
+
+document.getElementById("form5").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form5";
+});
+
+document.getElementById("form6").addEventListener("click", function() {
+  window.location.href = "https://forms.google.com/form6";
 });
