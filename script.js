@@ -11,7 +11,7 @@ window.onload = function() {
   var form2 = document.getElementById("form2");
   if (form2) {
     form2.addEventListener("click", function() {
-      window.location.href = "https://forms.google.com/form2";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfoF0PVygVg1Oza16STeb1ET9ZiK-DV2agR-CrgBYaexI-MYg/viewform?usp=sf_link";
     });
   } else {
     console.error("Element with ID 'form2' not found in the DOM");
