@@ -26,8 +26,8 @@ h1 {
   content: attr(data-text);
   position: absolute;
   color: orange;
-  top: 30%;
-  left: 70%;
+  top: auto;
+  left: 80%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 10px;
