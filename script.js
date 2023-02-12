@@ -2,7 +2,7 @@ window.onload = function() {
   var form1 = document.getElementById("form1");
   if (form1) {
     form1.addEventListener("click", function() {
-      window.location.href = "https://www.demorgen.be";
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSegYIyLrO3mW1iLP8wdA-5sdGC70NMXunTXBi272jjxWUdQVw/viewform?usp=sf_link", "_blank");
     });
   } else {
     console.error("Element with ID 'form1' not found in the DOM");
