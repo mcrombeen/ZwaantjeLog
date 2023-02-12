@@ -20,7 +20,7 @@ window.onload = function() {
   var form3 = document.getElementById("form3");
   if (form3) {
     form3.addEventListener("click", function() {
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfoF0PVygVg1Oza16STeb1ET9ZiK-DV2agR-CrgBYaexI-MYg/viewform?usp=sf_link";
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSfoF0PVygVg1Oza16STeb1ET9ZiK-DV2agR-CrgBYaexI-MYg/viewform?usp=sf_link", "_blank");
     });
   } else {
     console.error("Element with ID 'form3' not found in the DOM");
